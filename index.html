@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Intro section with dropdown navigation</title>
+  </head>
+  <body>
+    <div class="nav--mobile__bg hidden">
+      <div class="nav--mobile">
+        <ul class="ul--list__main">
+          <li>
+            <a href="#" class="features__link"
+              >Features<img
+                class="features__arrow"
+                src="./images/icon-arrow-down.svg"
+                alt=""
+            /></a>
+            <ul class="features__expanded" id="features__hidden">
+              <li><img src="./images/icon-todo.svg" alt="" />Todo list</li>
+              <li><img src="./images/icon-calendar.svg" alt="" />Calendar</li>
+              <li><img src="./images/icon-reminders.svg" alt="" />Reminders</li>
+              <li><img src="./images/icon-planning.svg" alt="" />Planning</li>
+            </ul>
+          </li>
+          <li>
+            <a href="#" class="company__link"
+              >Company<img
+                class="company__arrow"
+                src="./images/icon-arrow-down.svg"
+                alt=""
+            /></a>
+            <ul class="company__expanded" id="company__hidden">
+              <li>History</li>
+              <li>Our team</li>
+              <li>Blog</li>
+            </ul>
+          </li>
+          <li>Careers</li>
+          <li>About</li>
+        </ul>
+        <ul>
+          <button class="logBtn">Login</button
+          ><button class="regBtn">Register</button>
+        </ul>
+      </div>
+    </div>
+    <nav>
+      <img class="logo" src="./images/logo.svg" alt="" />
+      <input type="image" src="./images/icon-menu.svg" class="btn--Open--Nav" />
+    </nav>
+    <div class="main--photo__phone">
+      <img src="./images/image-hero-mobile.png" alt="" />
+    </div>
+    <section class="main--section">
+      <h1>Make remote work</h1>
+      <p>
+        Get your team in sync, no matter your location. Streamline processes,
+        create team rituals, and watch productivity soar.
+      </p>
+    </section>
+    <div class="learnmore--flexwrapper">
+      <button class="learn-more">Learn more</button>
+    </div>
+    <div class="partners--wrapper">
+      <img src="./images/client-databiz.svg" alt="" />
+      <img src="./images/client-audiophile.svg" alt="" />
+      <img src="./images/client-meet.svg" alt="" />
+      <img src="./images/client-maker.svg" alt="" />
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
